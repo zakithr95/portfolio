@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url(./reset.css);
+
+/* theme and variable*/
+:root
+
+header > h1{
+  font-family: "Rubik Wet Paint", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #ea4335; 
+  line-height: 9.5rem;
+  font-size: 7rem;
+  text-shadow: .2rem .2rem rgb(255, 179, 0), 
+  -.2rem -.2rem   rgb(255, 179, 0),
+  .2rem -.2rem   rgb(255, 179, 0), 
+  -.2rem .4rem rgb(255, 179, 0);
+  padding: 3rem 0;
+}
+
+figure, section{
+    max-width: 80rem;
+    margin: 1rem auto;
+}
+
+figure img{
+    width: 100%; /* 100% de la largeur du parent */ 
+    filter: drop-shadow(0 0 2rem #dc143c);
+}
+/* galerie primary */
+figure.gallery-primary{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+figure.gallery-primary figcaption{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 4.5rem;
+    padding: 1rem 0;
+}
+
+/* galerie figcaption titre */
+
+
+figure.gallery-primary img{
+    width: auto;
+    height: 15rem;
+    
+}
+
+/* galerie figcaption titre */
+
+
+.gallery-primary img{
+    width: inherit;
+    height: 15rem;
+    
+}
+
+footer p{
+    text-align: center;
+    
+}
